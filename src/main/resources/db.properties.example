@@ -1,0 +1,5 @@
+# Copy this file to  src/main/resources/db.properties  (it is git-ignored)
+# Environment variables DB_URL, DB_USER and DB_PASSWORD override these values.
+db.url=jdbc:mysql://localhost:3306/library_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+db.user=root
+db.password=your_password_here
